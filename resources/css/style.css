@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: inline;
+    text-align: justify;
+}
+
+nav {
+    min-height: 64px;
+}
+
+nav img {
+    padding-left: 24px;
+    max-height: 32px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding-right: 16px;
+}
+
+.menu {
+    float: right;
+    padding-right: 8px;
+}
