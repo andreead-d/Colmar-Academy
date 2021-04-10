@@ -39,7 +39,6 @@ nav a {
     display: inline-block;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .hero img {
@@ -53,11 +52,95 @@ button {
     border: none;
     padding-top: 8px;
     padding-bottom: 8px;
-
 }
 
 .button {
     text-decoration: none;
     color: white;
+}
 
+/* Featured articles */
+.featured {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: inline-block;
+    display: flex;
+}
+
+.featured p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.main-feature {
+    width: 60%;
+    display: flex;
+    flex-grow: 2;
+    flex-grow: 1;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.main-feature img {
+    padding-bottom: 32px;
+    width: 100%;
+    height: auto;
+}
+
+.main-feature h2 {
+    padding-bottom: 24px;
+}
+
+.author {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subfeatures {
+    max-width: 40%;
+
+}
+
+.subfeature-details {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+.subfeature-details img {
+    height: auto;
+    width: 35%;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.main-feature img {
+    display: flex;
+
+}
+
+.subfeature-content {
+    width: 65%;
+}
+
+.feature-link {
+    text-decoration: none;
+}
+
+.guest {
+    background-color: lightgray;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+.guest img {
+    height: auto;
+    width: 35%;
+    padding: 16px;
+}
+
+/* Start learning */
+.learning {
+    background-color: lightgray;
 }
