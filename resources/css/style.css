@@ -3,28 +3,33 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Header */
 header {
     display: inline;
-    text-align: justify;
+    align-items: center;
 }
 
 nav {
-    min-height: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav img {
     padding-left: 24px;
     max-height: 32px;
-
 }
 
 nav a {
     text-decoration: none;
     color: black;
     padding-right: 16px;
+
 }
 
 .menu {
-    float: right;
     padding-right: 8px;
+    float: right;
+
 }
