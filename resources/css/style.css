@@ -25,7 +25,6 @@ nav a {
     text-decoration: none;
     color: black;
     padding-right: 16px;
-
 }
 
 .menu {
@@ -97,7 +96,8 @@ button {
 
 .subfeatures {
     max-width: 40%;
-
+    flex-grow: 1;
+    flex-shrink: 1; 
 }
 
 .subfeature-details {
@@ -141,6 +141,53 @@ button {
 }
 
 /* Start learning */
-.learning {
+.learning-overview {
     background-color: lightgray;
+    padding: 32px 72px;
+}
+
+.learning {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.learning-overview h2 {
+    text-align: center;
+}
+
+.learning-details {
+    background-color: white;
+    margin-bottom: 32px;
+    margin-right: 32px;
+
+}
+
+.learning-details img {
+    height: auto;
+}
+
+.learning-content {
+    padding: 16px; 
+
+}
+
+/* Footer */
+footer {
+    padding-left: 24px;
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: darkgray;
+}
+
+.footer-content {
+    float: right;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: darkgray;
 }
