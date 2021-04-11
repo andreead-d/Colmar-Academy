@@ -98,6 +98,7 @@ button {
     max-width: 40%;
     flex-grow: 1;
     flex-shrink: 1; 
+    display: inline-block;
 }
 
 .subfeature-details {
@@ -116,7 +117,6 @@ button {
 
 .main-feature img {
     display: flex;
-
 }
 
 .subfeature-content {
@@ -187,15 +187,59 @@ button {
 .thesis {
     display: inline-block;
     display: flex;
+    justify-content: flex-start;
 }
 
 .thesis-main {
     width: 60%;
-}
-.thesis-details {
-    display: inline-block;
+    padding-left: 24px;
+    padding-bottom: 32px;
+    padding-right: 24px;
     display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+.thesis-main img {
+    padding-bottom: 24px;
+    display: flex;
+}
+
+.thesis-main h3 {
+    padding-bottom: 8px;
+}
+
+.subtheses {
     width: 40%;
+    display: inline-block;
+    align-items: center;
+}
+
+.thesis-fisma {
+    display: inline-flex;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.thesis-fisma img {
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: auto;
+    width: 35%;
+}
+
+.thesis-nowthen {
+    display: inline-flex;
+    align-items: center;
+}
+
+.thesis-nowthen img {
+    padding: 16px;
+    height: auto;
+    width: 35%;
 }
 
 
